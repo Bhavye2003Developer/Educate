@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blockchain Development"
+        android:textSize="30sp"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:background="@drawable/rounded_textview"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:text="Solidity"
+            android:layout_margin="10dp"
+            android:textColor="#013220"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:background="@drawable/rounded_textview"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:layout_margin="10dp"
+            android:text="Geth"
+            android:textColor="#013220"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:background="@drawable/rounded_textview"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:text="Mist"
+            android:layout_margin="10dp"
+            android:textColor="#013220"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:background="@drawable/rounded_textview"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:layout_margin="10dp"
+            android:text="Solc"
+            android:textColor="#013220"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textColor="#013220"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:background="@drawable/rounded_textview"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:text="Remix"
+            android:layout_margin="10dp"
+            android:textColor="#013220"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:background="@drawable/rounded_textview"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:layout_margin="10dp"
+            android:text="Metamask"
+            android:textColor="#013220"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:background="@drawable/rounded_textview"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:text="Truffle"
+            android:layout_margin="10dp"
+            android:textColor="#013220"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:background="@drawable/rounded_textview"
+            android:textAlignment="center"
+            android:textSize="35sp"
+            android:layout_margin="10dp"
+            android:text="Ganache"
+            android:textColor="#013220"/>
+
+    </LinearLayout>
+
+</LinearLayout>

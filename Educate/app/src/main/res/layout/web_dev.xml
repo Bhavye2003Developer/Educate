@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Web Development"
+        android:textSize="30sp"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:background="@drawable/rounded_textview"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:text="HTML"
+            android:layout_margin="10dp"
+            android:textColor="#013220"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:background="@drawable/rounded_textview"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:layout_margin="10dp"
+            android:text="CSS"
+            android:textColor="#013220"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:background="@drawable/rounded_textview"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:text="Javascript"
+            android:layout_margin="10dp"
+            android:textColor="#013220"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:background="@drawable/rounded_textview"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:layout_margin="10dp"
+            android:text="React"
+            android:textColor="#013220"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:textColor="#013220"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:background="@drawable/rounded_textview"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:text="Angular"
+            android:layout_margin="10dp"
+            android:textColor="#013220"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:background="@drawable/rounded_textview"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:layout_margin="10dp"
+            android:text="NodeJS"
+            android:textColor="#013220"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:background="@drawable/rounded_textview"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:text="ExpressJS"
+            android:layout_margin="10dp"
+            android:textColor="#013220"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:background="@drawable/rounded_textview"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:layout_margin="10dp"
+            android:text="Vue.js"
+            android:textColor="#013220"/>
+
+    </LinearLayout>
+
+</LinearLayout>
